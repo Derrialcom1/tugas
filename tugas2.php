@@ -1,7 +1,7 @@
 <?php
 //ambil data json dari file
 $content = file_get_contents("barang.json");
-//mengubah data json menjadi data array 
+//mengubah data json menjadi data array  
 $result = json_decode($content, true);
 
 echo "<h1>Toko Online A Lagi Diskon Lhoooo!!! Mampir Yuukk!!</h1>";
